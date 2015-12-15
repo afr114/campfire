@@ -10,6 +10,7 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem 'sass-rails'
 gem 'hirb'
+gem 'omniauth', '~> 1.2', '>= 1.2.2'
 
 group :development do
   gem 'byebug'
