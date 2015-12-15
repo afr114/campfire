@@ -10,18 +10,19 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ //= depend_on_asset "fire-min.jpg"
  *= require_tree .
  *= require_self
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
- /*html {
+ html {
    box-sizing: border-box;
  }
  *, *:before, *:after {
    box-sizing: inherit;
- }*/
+ }
 
  ul.nav-bar {
    list-style-type: none;
@@ -49,4 +50,10 @@ ul.nav-bar a  {
 
  * {
    border:1px solid;
+ }
+
+ .welcome-container {
+   height: 700px;
+   background-image: url('fire-min.jpg');
+   background-repeat: no-repeat;
  }
